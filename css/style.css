@@ -1,66 +1,66 @@
 /*  style.css */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    display: flex;
-    justify-content: center;  /* 센터정렬 코드 */
-    align-items: center;  /* 센터정렬 코드 */
-    height: 100vh; /* 높이감 채움 */
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* 센터정렬 코드 */
+  align-items: center; /* 센터정렬 코드 */
+  height: 100vh; /* 높이감 채움 */
 }
 img {
-    width: 800px;   
+  width: 800px;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 .container {
-    margin: 0 auto;
-    width: 800px;
-    background: #ccc;
-    padding: 20px;
+  margin: 0 auto;
+  width: 800px;
+  background: #ccc;
+  padding: 20px;
 }
 .container h1 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 .main-image {
-    width: 800px;
-    height: 460px;
-    margin-bottom: 20px;
+  width: 800px;
+  height: 460px;
+  margin-bottom: 20px;
 }
 .main-image > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 37px;
+  width: 100%;
+  height: 100%;
+  border-radius: 37px;
 }
 
 .img-thumb {
-    width: 100%;
-    height: 80px;
-    overflow: hidden;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
 }
 .img-thumb > li {
-    /* outline: 1px solid red; */
-    width: calc((800px - 25px) / 6);
-    height: 100%;
-    float: left;
-    margin-right: 5px;
+  /* outline: 1px solid red; */
+  width: calc((800px - 25px) / 6);
+  height: 100%;
+  float: left;
+  margin-right: 5px;
 }
 .img-thumb > li:hover,
 .img-thumb > li:hover {
-    border: 5px solid pink;
-    box-sizing: border-box;
-    overflow: hidden;
+  border: 5px solid pink;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 /* 마지막 li에다가만 margin right를 빼주면 됨! (:last-child 선택자 사용) */
 .img-thumb > li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 .img-thumb > li > img {
-    width: 100%;
-    height: 100%;
-    display: block;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
